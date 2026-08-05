@@ -1,7 +1,5 @@
 import type { CategoryId, Meme } from "../types";
 
-export type { CategoryId, Meme };
-
 // ── Network layer (Week 1, Slide 24) ─────────────────────────────────────────
 // Components never talk to the network directly. They call generateMemes()
 // and get back an array of memes. The URL, headers, JSON and error handling

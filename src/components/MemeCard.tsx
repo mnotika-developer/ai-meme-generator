@@ -1,4 +1,4 @@
-import type { Meme } from '../api/memes.ts'
+import type { Meme } from '../types'
 
 interface MemeCardProps {
   meme: Meme

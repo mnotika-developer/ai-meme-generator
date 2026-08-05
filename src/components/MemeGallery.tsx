@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import MemeCard from './MemeCard.tsx'
 import MemeModal from './MemeModal.tsx'
-import type { Meme } from '../api/memes.ts'
+import type { Meme } from '../types'
 
 interface MemeGalleryProps {
   memes: Meme[]

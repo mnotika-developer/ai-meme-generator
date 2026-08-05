@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { generateMemes } from '../api/memes.ts'
-import type { Meme } from '../api/memes.ts'
+import type { Meme } from '../types'
 import type { CategoryId } from '../categories.ts'
 
 export function useMemeGenerator() {
