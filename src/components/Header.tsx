@@ -5,7 +5,7 @@ function Header() {
         🔥
       </span>
       <div className="app-header__text">
-        <h1 className="app-header__title">AI Meme Generator</h1>
+        <h1 className="app-header__title">AI Meme Generator</h1
         <p className="app-header__subtitle">Modern React Project</p>
       </div>
     </header>
